@@ -1,3 +1,4 @@
+/* tag selectors */
 body{
     background-color: #EAF6F6;
 }
@@ -13,4 +14,24 @@ h1{
 }
 h3{
     color: #66BFBF;
+}
+
+p:hover{
+    background-color: gold;
+}
+
+/* class selectors */
+.classname{
+    background-color: red;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+
+
+#heading{
+    font-size: 200px;
+    color: blue;
 }
